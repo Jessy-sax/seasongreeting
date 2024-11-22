@@ -1,0 +1,155 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 50px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: none;
+}
+
+.container.active {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+h1, h2 {
+    color: #e74c3c;
+    font-size: 2em;
+}
+
+label, p {
+    font-size: 1.2em;
+    color: #2c3e50;
+}
+
+input {
+    font-size: 1em;
+    padding: 8px;
+    margin: 10px 0;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #e74c3c;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c0392b;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #2c3e50;
+}
+
+textarea {
+    font-size: 1em;
+    padding: 8px;
+    margin: 10px 0;
+    width: 80%;
+    height: 80px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+select {
+    font-size: 1em;
+    padding: 8px;
+    margin: 10px 0;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    font-size: 1em;
+    padding: 8px;
+    margin: 10px 0;
+    width: 80%;
+    height: 80px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+select {
+    font-size: 1em;
+    padding: 8px;
+    margin: 10px 0;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button.hidden {
+    display: none;
+}
+
+#copyLinkBtn {
+    background-color: #3498db;
+}
+
+#copyLinkBtn:hover {
+    background-color: #2980b9;
+}
+
+#contactSection {
+    margin-top: 30px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: block;
+}
+
+h3 {
+    color: #e74c3c;
+    font-size: 1.8em;
+}
+
+p {
+    font-size: 25px;
+    color: #2c3e50;
+}
+
+
+#contactSection {
+    margin-top: 20px;
+    background: #f4f4f4;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: none;
+    display: block;
+    font-size: 0.9em; /* Smaller text */
+    color: #7f8c8d;  /* Subtle text color */
+}
+
+h3 {
+    color: #e74c3c; /* Optional, keep the header bold */
+    font-size: 1.4em; /* Slightly smaller */
+}
+
+p {
+    font-size: 1em;
+    color: #2c3e50; /* Slightly muted text color */
+}
+
