@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalized Festival Greetings</title>
+    <link rel="stylesheet" href="season.css">
+</head>
+<body>
+    <!-- Display the greeting -->
+    <div id="greetingSection" class="container">
+        <h1><span id="festivalName">Season's Greetings From,</span>, <span id="nameDisplay">Friend</span>!</h1>
+        <p id="customMessage">Wishing you all the joy and happiness of the season! 🎉✨</p>
+        <button id="createLinkBtn">Create Your Own Greeting</button>
+    </div>
+    <!-- Form for users to create a greeting -->
+    <div id="createLinkSection" class="container hidden">
+        <h2>Create Your Personalized Greeting</h2>
+        <form id="greetingForm">
+            <label for="festival">Select Festival:</label>
+            <select id="festival">
+                <option value="Merry Christmas From">Christmas</option>
+                <option value="Happy Easter From">Easter</option>
+                <option value="Happy New Year From">New Year</option>
+                <option value="Happy Thanksgiving From">Thanksgiving</option>
+                <option value="Happy Diwali From">Diwali</option>
+                <option value="Happy Hanukkah From">Hanukkah</option>
+                <option value="Happy Halloween From">Halloween</option>
+                <option value="Happy Eid From">Eid</option>
+                <option value="Happy Lunar New Year From">Lunar New Year</option>
+                <option value="Happy Valentine's Day From">Valentine's Day</option>
+                <option value="Happy Holi From">Holi</option>
+            </select>
+            <br>
+            <label for="name">Enter Your Name:</label>
+            <input type="text" id="name" placeholder="Your Name" required>
+            <br>
+            <label for="message">Enter Your Custom Message:</label>
+            <textarea id="message" placeholder="Your custom greeting message" required></textarea>
+            <button type="submit">Generate Link</button>
+        </form>
+        <p id="result"></p>
+        <button id="copyLinkBtn" class="hidden">Copy Link</button>
+    </div>
+   
+    <script src="create.js"></script>
+    <div id="contactSection" class="container">
+        <h3>Contact Me</h3>
+        <p>Jesse Terungwa Aondodoo</p>
+        <p>Email: jesseterungwa@gmail.com</p> <!-- Replace with your email -->
+        <p>Phone: +234-476-648-87</p> <!-- Replace with your phone number -->
+    </div>
+</body>
+</html>
